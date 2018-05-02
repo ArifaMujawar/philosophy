@@ -121,6 +121,7 @@ div.header{
     display: table;
     clear: both;
   }
+  
   .row:after{
     content: "";
     display: table;
@@ -133,8 +134,8 @@ div.header{
   }
   .column1{
     float: left;
-    padding: 0;
-    margin: 0;
+    padding: 30px;
+    /* margin: 30px; */
     
   }
   div.column{
@@ -152,26 +153,29 @@ div.header{
   }
   .left1{
     width: 30%;
-   background: white;
-   margin: auto;
+   /* background: white; */
+   margin: 10px auto auto;
    /* padding: 20px; */
   }
   
   .right1{
     width: 30%;
-    background: white;
-    margin: auto;
+    /* background: white; */
+    margin: 10px auto auto;
     /* padding: 20px; */
    
   }
   .middle1{
     width: 30%;
-    background: white;
-    margin: auto;
+    /* background: white; */
+    margin: 10px auto auto;
     /* padding: 20px; */
   }
   .blogs-content{
+    margin-top: -5px;
     padding: 20px;
+    background: white;
+   
   }
   .bottom-left{
      bottom: 5%;
@@ -226,9 +230,9 @@ div.header{
       font-size: 8px;
   }
   .blogs{
-      background: rgb(212, 209, 209);
+      background: rgb(204, 202, 202);
       margin: auto;
-      padding:0px;
+      padding:1px;
       
   }
   .blue-text{
@@ -267,9 +271,8 @@ div.header{
  }
  img.video{
    position: absolute;
-   bottom: -193%;
-   left: 3%;
-   width: 4%;
+   left: 13px;
+   top: 67%;
    height: 51px;
  }
  .page-numbers{
@@ -455,4 +458,7 @@ h6{
 .philosophy-text{
   margin-bottom:30px;
   margin-top:34px;
+}
+.trail{
+  position: relative;
 }
